@@ -164,14 +164,15 @@ letter-spacing: 1.37px;
     font-weight: 800;
     line-height: 6.72px;
     text-shadow: 0 1px 1px rgba(76, 76, 76, 0.21);
-
+    
 }
 
-/*Book shield section*/
+/*Book shield section up*/
 
 .right-box {
-    flex-direction: column;
+    padding: 2rem;
 }
+
 .top-bar-options {
     padding-top: 2rem;
     display: flex;
@@ -237,4 +238,81 @@ letter-spacing: 1.37px;
 
 .buttons {
     padding-right: 2rem;
+}
+
+.lenguages-options {
+
+    display: flex;
+    align-items: center;
+    margin: 0 100px 0 100px;
+    border-bottom: 1px solid #d7e1e1;
+
+}
+
+
+.lenguages-options h4 {
+    padding-left: 2rem;
+    color: #a6a7a7;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 11.08px;
+}
+
+.lenguages-options h4:hover{
+    border-bottom: 2px solid #019c97;
+    color: #019c97;
+}
+
+
+/*Book shield section down*/
+
+.book-shield {
+    display: flex;
+    
+    padding: 3rem 6rem 3rem 6rem;
+}
+
+
+.book {
+    
+    border-radius: 2rem;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    width: 226px;
+    margin-left: 2rem;
+}
+
+.book__image {
+    background-position: center;;
+    background-size: cover;
+    height: 16rem
+}
+
+.book__footer {
+    background: white;
+    padding: 16px;
+    position: relative;
+}
+
+.book__title {
+    color: #019c97;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.book__size {
+    color: #777777;
+    font-size: 1rem;
+}
+
+.book__actions {
+    bottom: 0;
+    height: 1rem;
+    position: absolute;
+    right: 0;
+    width: 12rem;
+    
 }
