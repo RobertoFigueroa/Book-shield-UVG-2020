@@ -3,7 +3,9 @@
     display: flex;
     padding-left: 2rem;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 0px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
 }
 .name {
     flex-grow: 1;
@@ -12,7 +14,7 @@
     font-family: "Open Sans";
     font-size: 28px;
     font-weight: 700;
-    line-height: 19.6px;
+    line-height: 49px;
 
 }
 .description {
@@ -22,7 +24,7 @@
     font-family: "Open Sans";
     font-size: 15px;
     font-weight: 400;
-    line-height: 19.6px;
+    line-height: 69px;
 
 /* Text style for "Libros ele" */
 
@@ -56,6 +58,111 @@ letter-spacing: 1.37px;
     line-height: 49px;
     border-left: 1px solid #e6ecec;
 
+}
+
+
+/*Page content*/
+
+.container{
+    display: flex;
+    background-color: #f1f6f6;
 
 }
-/*Body*/
+
+.left-box {
+
+    flex-grow: 1;
+    align-content: center;
+    text-align: center;
+    padding-top: 2rem;
+
+}
+.book-packages {
+    background-color: white;
+    height: 669px;
+    border-radius: 10px;
+    width: 318px;
+    padding: 2rem;
+    text-align: left;
+    display: inline-block;
+}
+
+.right-box {
+
+    flex-grow: 12;
+
+}
+
+.container ul{
+    list-style-type: none;
+}
+
+.container p{
+    height: 13px;
+    text-shadow: 0 2px 0 #ffffff;
+    color: #e1e6e6;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.book-packages li{
+    color: #747e7e;
+
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 49px;
+    text-decoration: underline
+}
+
+.book-packages h4{
+    
+    height: 13px;
+    text-shadow: 0 2px 0 #ffffff;
+    color: #00a09b;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 2rem;
+
+}
+
+.add-package {
+    border-top: 1px solid #f1f6f6;
+}
+
+.text-box{
+    margin-left: 2rem;
+    border-radius: 1rem;
+    height: 47px;
+    border: 1px solid #dde4e4;
+    background-color: #f1f6f6;
+
+}
+
+::placeholder {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.79);
+    color: #c0c0c0;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn {
+    border-radius: 50%;
+    border: none;
+    width: 53px;
+    height: 53px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    background-color: #00b2ac;
+    background-image: linear-gradient(to top, rgba(194, 194, 194, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%);
+    color: #ffffff;
+    font-family: "Font Awesome";
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 6.72px;
+    text-shadow: 0 1px 1px rgba(76, 76, 76, 0.21);
+
+}
